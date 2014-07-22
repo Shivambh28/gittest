@@ -1,12 +1,12 @@
-STEPS FOR PERFECT BITBUCKET / GITHUB WORKFLOW
-=============================================
+PERFECT BITBUCKET / GITHUB WORKFLOW
+===================================
 
 1. Create Repo on bitbucket or git
 2. Create Local repo then run the following:
    - git init
    - git clone <repo name>
    - place your files in here, main file for this process will be deploy.php
-     - deploy.php file content: <?php `git pull`; ?>
+     - deploy.php file content: `<?php `git pull`; ?>`
    - upload command: git add .
    - commit command: git commit -m "type comment here"
    - push command: git push

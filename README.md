@@ -1,4 +1,5 @@
 STEPS FOR PERFECT BITBUCKET / GITHUB WORKFLOW
+=============================================
 
 1. Create Repo on bitbucket or git
 2. Create Local repo then run the following:
@@ -19,7 +20,8 @@ STEPS FOR PERFECT BITBUCKET / GITHUB WORKFLOW
         - set passphrase too none
    5. Copy id_rsa.pub 
       - cd ~/.ssh && cat id_rsa.pub (use mouse to copy the key)
-4. Go to bitbuck.com or github.com / enter your setting, find SSH Key. Enter revelant title and paste key in key textbox. 
+4. Go to bitbuck.com or github.com / enter your setting, find SSH Key. Enter revelant title and paste key in key textbox.
+5. Go to Git or Bitbucket, repo setting and find either webhook post for Github or POST for bitbucket and paste your deploy.php url there. For example: youdomain.com/pullrequest.php
 5. Go to your repo and copy SSH clone URL. 
 6. Go back to SSH connect server, cd into your proper folder and run git clone <pasteSshURL>
  
